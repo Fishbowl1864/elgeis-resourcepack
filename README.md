@@ -21,6 +21,7 @@ To start us off, an example texture "Goatem of Undying" is provided for referenc
 2. Inside that folder provide a (reasonably sized) icon for the texture, named the same as your folder (for simplicity).
 3. Also inside that folder, create a file with the name of the item you want replaced and suffix .properties (e.g. totem_of_undying.properties)
 4. The .properties file should contain the following 3 lines (without the brackets):
+   
     type=item
    
     matchItems=minecraft:\[item you want retextured\]
@@ -29,7 +30,6 @@ To start us off, an example texture "Goatem of Undying" is provided for referenc
    
     nbt.display.Name=\[Your Name\]
     
-.
 
     **For example, the Goatem of Undying's properties are:**
 
