@@ -1,7 +1,7 @@
 # elgeis-resourcepack
 Crowdsourced resource pack for Elgeis Minecraft Server
 
-Requires Optifine or CIT Resewn mod for non Optifine clients to work properly - without it nothing will break, you just won't see changed textures!
+Requires Optifine (or something like the CIT Resewn mod for non Optifine clients) to work properly - without it nothing will break, you just won't see changed textures!
 
 To start us off, an example texture "Goatem of Undying" is provided for reference.
 
