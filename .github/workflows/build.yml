@@ -13,7 +13,7 @@ jobs:
 
     - name: Zip resource pack
       run: |
-        zip -r resourcepack.zip assets pack.mcmeta
+        zip -r elgeis-resourcepack.zip assets pack.mcmeta
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
@@ -25,7 +25,7 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         tag_name: latest
-        files: resourcepack.zip
+        files: elgeis-resourcepack.zip
         prerelease: false
         make_latest: true
       env:
