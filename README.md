@@ -1,5 +1,7 @@
 # elgeis-resourcepack
-Crowdsourced resource pack for Elgeis Minecraft Server
+Crowdsourced resource pack for the one and only Elgeis Minecraft Server
+
+Allows community members to add custom textures to be displayed for items renamed to specific text
 
 Requires Optifine (or something like the CIT Resewn mod for non Optifine clients) to work properly - without it nothing will break, you just won't see changed textures!
 
