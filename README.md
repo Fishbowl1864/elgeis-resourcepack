@@ -5,8 +5,6 @@ Allows community members to add custom textures to be displayed for items rename
 
 Requires Optifine (or something like the CIT Resewn mod for non Optifine clients) to work properly - without it nothing will break, you just won't see changed textures!
 
-To start us off, an example texture "Goatem of Undying" is provided for reference.
-
 # Rules for Contributing
 - All changed textures are through the Optifine CIT system, see documentation: https://optifine.readthedocs.io/cit.html
 - If you are thinking about doing something extra like adding an enchantment glint or other conditions listed in the CIT documentation above, we'd prefer you didn't, but check with a staff member first if it's really that important.
