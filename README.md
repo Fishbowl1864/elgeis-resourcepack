@@ -23,11 +23,11 @@ To start us off, an example texture "Goatem of Undying" is provided for referenc
 4. The .properties file should contain the following 3 lines (without the brackets):
     type=item
    
-    matchItems=minecraft:<item you want retextured>
+    matchItems=minecraft:\[item you want retextured\]
     
-    texture=<your texture>.png
+    texture=\[your texture\].png
    
-    nbt.display.Name=<Your Name>
+    nbt.display.Name=\[Your Name\]
     
 .
 
