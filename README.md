@@ -15,7 +15,9 @@ To start us off, an example texture "Goatem of Undying" is provided for referenc
 
 # The Simple Tutorial
 
-*A sample "Goatem of Undying" is provided for your reference at assets/minecraft/optifine/cit/goatem*
+The purpose of this tutorial is to add a texture to a renamed item - for example, renaming a totem to "Goatem of Undying" will result in the goatem.png texture being displayed for that item.
+
+*A sample rename texture for "Goatem of Undying" is provided for your reference at assets/minecraft/optifine/cit/goatem*
 
 1. Create a folder for each item you wish to retexture inside assets/minecraft/optifine/cit/. That folder should be named the custom name or a shorthand (for housekeeping).
 2. Inside that folder provide a *(32x32 or smaller)* icon for the texture, named the same as your folder (for simplicity).
