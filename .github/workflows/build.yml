@@ -1,0 +1,30 @@
+name: Build Resource Pack
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Zip resource pack
+      run: |
+        zip -r resourcepack.zip assets pack.mcmeta
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ResourcePack
+        path: resourcepack.zip
+
+    - name: Deploy to GitHub Releases
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: latest
+        files: resourcepack.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
