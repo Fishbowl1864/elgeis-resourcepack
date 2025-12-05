@@ -9,22 +9,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Zip resource pack
       run: |
         zip -r resourcepack.zip assets pack.mcmeta
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ResourcePack
         path: resourcepack.zip
 
-    - name: Deploy to GitHub Releases
-      uses: softprops/action-gh-release@v1
+    - name: Create or update 'latest' release
+      uses: softprops/action-gh-release@v2
       with:
         tag_name: latest
         files: resourcepack.zip
+        prerelease: false
+        make_latest: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
