@@ -1,5 +1,5 @@
 # elgeis-resourcepack
-Crowdsourced resource pack for the one and only Elgeis Minecraft Server
+Crowdsourced resource pack for the one and only **Elgeis Minecraft Server**!
 
 Allows community members to add custom textures to be displayed for items renamed to specific text
 
